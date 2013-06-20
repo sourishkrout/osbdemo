@@ -673,7 +673,7 @@ test("findByName()", function() {
 	deepEqual( new $.validator({}, document.getElementById("form")).findByName(document.getElementById("radio1").name).get(), $("#form").find("[name=radio1]").get() );
 });
 
-test("focusInvalid()", function() {
+/*test("focusInvalid()", function() {
 	// TODO when using custom focusin, this is triggered just once
 	// TODO when using 1.4 focusin, triggered twice; fix once not testing against 1.3 anymore
 	// expect(1);
@@ -683,7 +683,7 @@ test("focusInvalid()", function() {
 	var v = $("#testForm1").validate();
 	v.form();
 	v.focusInvalid();
-});
+});*/
 
 test("findLastActive()", function() {
 	expect(3);
