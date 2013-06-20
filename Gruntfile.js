@@ -26,11 +26,6 @@ module.exports = function (grunt) {
                 version: '9'
             },
             {
-                browserName: 'internet explorer',
-                platform: 'XP',
-                version: '8'
-            },
-            {
                 browserName: 'opera',
                 platform: 'Windows 2008',
                 version: '12'
