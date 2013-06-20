@@ -99,7 +99,7 @@ $.extend($.fn, {
 		if ( $(this[0]).is("form")) {
 			return this.validate().form();
 		} else {
-			var valid = true;
+			var valid = false;
 			var validator = $(this[0].form).validate();
 			this.each(function() {
 				valid = valid && validator.element(this);
