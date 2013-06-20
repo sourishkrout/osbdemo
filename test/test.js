@@ -2,7 +2,7 @@ if ( window.sessionStorage ) {
 	sessionStorage.clear();
 }
 jQuery.validator.defaults.debug = true;
-$.mockjaxSettings.log = $.noop;
+$.mockjaxSettings.log = $.noop
 
 $.mockjax({
 	url: "form.php?user=Peter&password=foobar",
