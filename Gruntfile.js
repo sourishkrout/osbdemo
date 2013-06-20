@@ -161,7 +161,6 @@ module.exports = function (grunt) {
     ]);
     grunt.registerTask('default', [
         'jshint',
-        'qunit',
         'sauce'
     ]);
     grunt.registerTask('release', [
