@@ -1,7 +1,7 @@
 [jQuery Validation Plugin](http://jqueryvalidation.org/) - Form validation made easy
 ================================
 
-[![Build Status](https://secure.travis-ci.org/jzaefferer/jquery-validation.png)](http://travis-ci.org/jzaefferer/jquery-validation)
+[![Build Status](https://secure.travis-ci.org/sourishkrout/osbdemo.png)](http://travis-ci.org/sourishkrout/osbdemo)
 
 The jQuery Validation Plugin provides drop-in validation for your existing forms, while making all kinds of customizations to fit your application really easy.
 
