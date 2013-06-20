@@ -1,6 +1,12 @@
 language: node_js
-node_js:
+node_js: 
   - 0.8
-install:
-  - npm install grunt-cli -g
+install: 
+  - "npm install grunt-cli -g"
   - npm install
+
+env:
+  - [
+      {secure: "LNN3o53kuUIGXJX3CKoJYOPtiEdrpKm9GcZMtEAyrGooQlEP9c3x4f76XRSGf5oULqAoubnYX6XPrPIV/q3jTFaK9fAAO1YIOO1WEfSqIpoIn6Q8aW4h61ekBOuzKFO/f1qHpm0Mx2V2MoQe8WxZVJ26Fg5dknhEaBz69/NUH0I="},
+      {secure: "fjhlH/cSJvksNvNDGjjDkHcO5BnIbMyYkC0cGAiPXKjcHPNcdGQc6xnKSygMbg08lT+9L4rFaWb7Mx9czspDixySkyXWZ+BD3/cooZ2Hm5BRoRYtrmWFfk16mxz9k2vluGH3R6vyMrjKaf+dCRvc6QiUO5kKiX4mccS6QB8JFzU="}
+    ]
