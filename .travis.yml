@@ -10,4 +10,4 @@ env:
 
 addons:
   - jwt:
-    - secure: au5TMV32hysZdgyeHs7c2Te/xz6SYSVybQPvWInoJtnlxdWkphaVmmULWEIPmW10iQcH5AEw6L9hZYLgCowSRXlZsYOKcKoNBtNXkh4eGMFbp2V16K++1xAtnk9vJ3Um6gRdG4BiGdmDvFI+Vvw85UttopJbPpS/S7FOLp1dehE=
+    - secure: "eDQEcNFA0nQzTUj1HmnedM8+vWtaxLehmEgDzf/EEI/Bk6tYcnJMqpA0VMklUDsdmkpxpMRgspdrv1+T4LdYFGMJUOJ+4A7DjkEiTvpKammhgRRYja3VjSpBjx8svxvxwLOHY6l81xRglsdjyWrCx87gUNBr5jFZ5Pd0SJM3LqI="
