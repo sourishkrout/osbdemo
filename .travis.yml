@@ -9,5 +9,6 @@ env:
     - SAUCE_USERNAME="sourishkrout"
 
 addons:
-  - jwt:
-    - secure: "eDQEcNFA0nQzTUj1HmnedM8+vWtaxLehmEgDzf/EEI/Bk6tYcnJMqpA0VMklUDsdmkpxpMRgspdrv1+T4LdYFGMJUOJ+4A7DjkEiTvpKammhgRRYja3VjSpBjx8svxvxwLOHY6l81xRglsdjyWrCx87gUNBr5jFZ5Pd0SJM3LqI="
+  jwt:
+    saucelabs:
+      secure: "eDQEcNFA0nQzTUj1HmnedM8+vWtaxLehmEgDzf/EEI/Bk6tYcnJMqpA0VMklUDsdmkpxpMRgspdrv1+T4LdYFGMJUOJ+4A7DjkEiTvpKammhgRRYja3VjSpBjx8svxvxwLOHY6l81xRglsdjyWrCx87gUNBr5jFZ5Pd0SJM3LqI="
