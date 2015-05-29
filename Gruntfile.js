@@ -129,11 +129,11 @@ module.exports = function (grunt) {
             all: {
                 options: {
                     urls: ['http://localhost:9999/test/index.html'],
-                    username: 'osbdemo',
-                    key: '3dca71b6-e473-4e30-b756-ec2dbfb95e82',
+                    username: require('process').env.SAUCE_USERNAME,
+                    key: require('process').env.SAUCE_ACCESS_KEY,
                     tunnelTimeout: 5,
                     build: require('process').env.TRAVIS_JOB_ID,
-                    concurrency: 3,
+                    concurrency: 5,
                     browsers: browsers,
                     testname: 'javascript unit tests'
                 }
