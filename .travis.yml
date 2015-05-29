@@ -11,4 +11,4 @@ env:
 addons:
   jwt:
      saucelabs:
-        secure: "hi3PEkkRCUHejkPKqIM7c+q8ZwTq1wB/e6CS2w0IapFv0Kik+WzLCv+KME/3r+wi5cNw5M62ST/U9dNxJEp9D1QhRaAYNFNgzSIEJtU0wvO3zQxoOVAK8q6p9seO6mODYq62M90M+vpER98A4wbGITPna7CPPPdHnFzCE4RVJMM="
+        secure: "txjn9yM8sO6f90LPNhc/nmAPOFZNBT7nt8f5OZh1MAfltcPqupwEtQr7hHhSdnNWb+4SYHrrhRKy0YA4GdsC356KcIhJtTfKnckEasmr30U2Z6Kt5Wx71FktFiLR2D4aezQx0sgQOJ1kX/Myokpk8hAgP1Ho/ifmnrsSbjBX10M="
