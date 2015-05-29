@@ -23,7 +23,7 @@
     }
   ],
   "scripts": {
-    "test": "export | grep SAUCE"
+    "test": "grunt"
   },
   "dependencies": {},
   "devDependencies": {
