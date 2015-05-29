@@ -131,7 +131,7 @@ module.exports = function (grunt) {
                     urls: ['http://localhost:9999/test/index.html'],
                     username: require('process').env.SAUCE_USERNAME,
                     key: require('process').env.SAUCE_ACCESS_KEY,
-                    tunnelTimeout: 5,
+                    tunnelTimeout: 60,
                     build: require('process').env.TRAVIS_JOB_ID,
                     concurrency: 5,
                     browsers: browsers,
